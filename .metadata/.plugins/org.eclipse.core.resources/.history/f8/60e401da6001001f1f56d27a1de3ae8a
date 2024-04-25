@@ -1,0 +1,12 @@
+package basic;
+//Three strems
+//1.in-> input stream
+//2.out-> printStream
+//3.err-> error stream
+public class First {
+	public static void main(String[] args) {
+		System.out.println("hello java");
+		System.out.println("hello again");
+		System.out.println("hello");
+	}
+}

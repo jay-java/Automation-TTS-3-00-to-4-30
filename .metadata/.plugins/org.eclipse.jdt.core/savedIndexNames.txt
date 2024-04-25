@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\jay-pc\Automation TTS 3-00 to 4-30\.metadata\.plugins\org.eclipse.jdt.core
+3614498627.index
+2795520304.index
+1865797976.index
+3413725848.index
