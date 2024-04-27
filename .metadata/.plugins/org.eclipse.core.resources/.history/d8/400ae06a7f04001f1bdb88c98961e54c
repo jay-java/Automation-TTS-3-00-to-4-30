@@ -1,0 +1,22 @@
+package core;
+
+import java.util.Scanner;
+
+class Call{
+	public void calling() {
+		System.out.println("calling function calling");
+	}
+	public void run() {
+		System.out.println("run function");
+	}
+}
+public class P004_UserInput {
+	public static void main(String[] args) {
+		int i = 1, j = 267;
+		System.out.println(i + j);
+		Call obj = new Call();
+		obj.calling();
+		obj.run();
+		Scanner sc = new Scanner();
+	}
+}
