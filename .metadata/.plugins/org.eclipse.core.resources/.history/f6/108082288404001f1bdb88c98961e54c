@@ -1,8 +1,0 @@
-package core;
-
-public class P005_ConditionalStatement {
-	public static void main(String[] args) {
-		//1.simple if
-		
-	}
-}

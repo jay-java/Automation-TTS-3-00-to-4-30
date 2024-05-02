@@ -38,5 +38,6 @@ public class P006_Loops {
 		for(int count=1;count<=10;count++) {
 			System.out.println(num+ " X "+count+ " = "+(num*count));
 		}
+		
 	}
 }
