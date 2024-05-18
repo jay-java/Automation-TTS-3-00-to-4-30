@@ -1,0 +1,11 @@
+package core;
+class CallClass{
+	public void calling() {
+		System.out.println("calling function");
+	}
+}
+public class P011_Function {
+	public static void main(String[] args) {
+		System.out.println("hello");
+	}
+}

@@ -9,6 +9,14 @@ public class P005_ConditionalStatement {
 		int a = sc.nextInt();
 		System.out.println("enter b = ");
 		int b = sc.nextInt();
+//		if(a == b) {
+//			System.out.println("equals");
+//		}
+//		else {
+//			System.out.println("not equal");
+//		}
+		
+		
 		// 1.simple if
 		if (a > b) {
 			System.out.println("a is greater than b");
@@ -71,6 +79,5 @@ public class P005_ConditionalStatement {
 			System.out.println("invalid input");
 			break;
 		}
-
 	}
 }

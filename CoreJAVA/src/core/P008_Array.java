@@ -35,6 +35,21 @@ public class P008_Array {
 		}
 		System.out.println("sum of ele : "+sum);
 		
+		System.out.println("enter number to search in array : ");
+		int num = sc.nextInt();
+		int counter = 0;
+		for(int index=0;index<a.length;index++) {
+			if(num == a[index]) {
+				counter++;
+			}
+			
+		}
+		if(counter>0) {
+			System.out.println("yes "+num+" is exist "+counter+" times");
+		}
+		else {
+			System.out.println("no");
+		}
 	}
 
 }

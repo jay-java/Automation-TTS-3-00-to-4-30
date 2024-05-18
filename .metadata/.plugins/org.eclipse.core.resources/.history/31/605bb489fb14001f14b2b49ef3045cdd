@@ -1,0 +1,16 @@
+package core;
+class CallClass{
+	public void calling() {
+		System.out.println("calling function");
+	}
+	public void add(int a,int b) {
+		System.out.println("addition of a and b = "+(a+b));
+	}
+}
+public class P011_Function {
+	public static void main(String[] args) {
+		System.out.println("hello");
+		CallClass c = new CallClass();
+		c.calling();
+	}
+}

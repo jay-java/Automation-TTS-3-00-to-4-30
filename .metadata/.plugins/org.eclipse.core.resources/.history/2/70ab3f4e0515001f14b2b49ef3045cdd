@@ -1,0 +1,32 @@
+package core;
+
+class College{
+	int id;
+	String name;
+	static String college_name = "LJ";
+	public void getData(int id,String name) {
+		System.out.println("id : "+id+" name : "+name+" college name : "+college_name);
+	}
+	public static void staticFunctin() {
+		System.out.println("static function");
+	}
+}
+public class P014_StaticKeyword {
+	public static void main(String[] args) {
+		College s1 = new College();
+		s1.getData(1,"aniket");
+		
+		College s1 = new College();
+		s1.getData(1,"aniket");
+		
+		College s1 = new College();
+		s1.getData(1,"aniket");
+		
+		College s1 = new College();
+		s1.getData(1,"aniket");
+		
+		College s1 = new College();
+		s1.getData(1,"aniket");
+		
+	}
+}

@@ -1,0 +1,18 @@
+package core;
+
+class College{
+	int id;
+	String name;
+	static String college_name = "LJ";
+	public void getData(int id,String name) {
+		System.out.println("id : "+id+" name : "+name);
+	}
+	public static void staticFunctin() {
+		System.out.println("static function");
+	}
+}
+public class P014_StaticKeyword {
+	public static void main(String[] args) {
+		
+	}
+}

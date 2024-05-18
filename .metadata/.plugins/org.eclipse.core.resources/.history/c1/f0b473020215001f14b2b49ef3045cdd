@@ -1,0 +1,17 @@
+package core;
+class Employee{
+	int id;
+	String name;
+	double salary;
+	Employee(int id,String name,double salary){
+		System.out.println("id : "+id+" name: "+name+" salary : "+salary );
+	}
+	public void getData() {
+		System.out.println("id : "+id+" name: "+name+" salary : "+salary );
+	}
+}
+public class P013_ThisKeyword {
+	public static void main(String[] args) {
+		
+	}
+}
