@@ -1,0 +1,17 @@
+package core;
+class Calculate{
+	public void add(int i,int j) {
+		System.out.println(i+j);
+	}
+	public void add(int i,int j,int k) {
+		System.out.println();
+	}
+	public void add(int i,int j,int k,int l) {
+		System.out.println();
+	}
+}
+public class P016_Polymorphism {
+	public static void main(String[] args) {
+		
+	}
+}
