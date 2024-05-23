@@ -1,0 +1,11 @@
+package core;
+class Calc{
+	public void chagnge() {
+		
+	}
+}
+public class P020_Final {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package core;
+class RBI{
+	
+}
+
+public class P018_Abstraction {
+	public static void main(String[] args) {
+		
+	}
+}

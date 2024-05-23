@@ -1,0 +1,18 @@
+package core;
+interface inter1{
+	
+}
+interface inter2 extends inter1{
+	
+}
+interface inter3{
+	
+}
+class CallINterface{
+	
+}
+public class P021_Interface {
+	public static void main(String[] args) {
+		
+	}
+}

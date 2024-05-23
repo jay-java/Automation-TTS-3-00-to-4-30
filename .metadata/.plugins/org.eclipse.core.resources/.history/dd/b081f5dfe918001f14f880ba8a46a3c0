@@ -1,0 +1,19 @@
+package core;
+class RBI{
+	abstract public void interest();
+ 	abstract public void HL();
+}
+class SBI{
+	
+}
+class PNB{
+	
+}
+class JAVA{
+	
+}
+public class P018_Abstraction {
+	public static void main(String[] args) {
+		
+	}
+}

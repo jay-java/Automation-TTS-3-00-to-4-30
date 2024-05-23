@@ -1,0 +1,16 @@
+package core;
+class Person{
+	int id;
+	String name;
+	long contact;
+	Person(int id,String name,long contact){
+		this.id= id;
+		this.name= name;
+		this.contact = contact;
+	}
+}
+public class P019_Encapsulation {
+	public static void main(String[] args) {
+		
+	}
+}

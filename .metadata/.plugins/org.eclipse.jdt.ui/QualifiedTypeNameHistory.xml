@@ -6,4 +6,10 @@
     <fullyQualifiedTypeName name="core.Area"/>
     <fullyQualifiedTypeName name="core.Employee"/>
     <fullyQualifiedTypeName name="core.College"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="core.C"/>
+    <fullyQualifiedTypeName name="core.E"/>
+    <fullyQualifiedTypeName name="core.F"/>
+    <fullyQualifiedTypeName name="core.Calculate"/>
+    <fullyQualifiedTypeName name="core.Child"/>
 </qualifiedTypeNameHistroy>
