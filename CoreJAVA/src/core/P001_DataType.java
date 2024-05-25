@@ -8,7 +8,7 @@ public class P001_DataType {
 		System.out.println("value of short s = "+s);
 		int i = 12;
 		System.out.println(i);
-		long l = 12;
+		long l = 12456757887877l;
 		System.out.println(l);
 		float f = 3.1434665565f;
 		System.out.println(f);
