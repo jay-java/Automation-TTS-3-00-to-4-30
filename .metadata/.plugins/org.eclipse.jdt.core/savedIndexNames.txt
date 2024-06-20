@@ -16,7 +16,6 @@ INDEX VERSION 1.134+C:\Users\jay-pc\Automation TTS 3-00 to 4-30\.metadata\.plugi
 3413725848.index
 292893747.index
 3903078211.index
-2933130940.index
 169583940.index
 1163975361.index
 3376233511.index
