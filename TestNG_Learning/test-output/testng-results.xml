@@ -1,115 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-11T16:42:06 IST" name="Suite" finished-at="2024-07-11T16:42:06 IST" duration-ms="191">
+  <suite started-at="2024-07-16T15:51:51 IST" name="Suite" finished-at="2024-07-16T15:51:56 IST" duration-ms="4414">
     <groups>
     </groups>
-    <test started-at="2024-07-11T16:42:06 IST" name="Test" finished-at="2024-07-11T16:42:06 IST" duration-ms="96">
-      <class name="group_test.Payment">
-        <test-method signature="COD()[pri:0, instance:group_test.Payment@4f83df68]" started-at="2024-07-11T16:42:06 IST" name="COD" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- COD -->
-        <test-method signature="UPI()[pri:0, instance:group_test.Payment@4f83df68]" started-at="2024-07-11T16:42:06 IST" name="UPI" finished-at="2024-07-11T16:42:06 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UPI -->
-        <test-method signature="creditCart()[pri:0, instance:group_test.Payment@4f83df68]" started-at="2024-07-11T16:42:06 IST" name="creditCart" finished-at="2024-07-11T16:42:06 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creditCart -->
-        <test-method signature="debitCart()[pri:0, instance:group_test.Payment@4f83df68]" started-at="2024-07-11T16:42:06 IST" name="debitCart" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- debitCart -->
-        <test-method signature="netBanking()[pri:0, instance:group_test.Payment@4f83df68]" started-at="2024-07-11T16:42:06 IST" name="netBanking" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- netBanking -->
-      </class> <!-- group_test.Payment -->
-      <class name="group_test.User">
-        <test-method signature="createAccount()[pri:0, instance:group_test.User@72967906]" started-at="2024-07-11T16:42:06 IST" name="createAccount" finished-at="2024-07-11T16:42:06 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAccount -->
-        <test-method signature="login()[pri:0, instance:group_test.User@72967906]" started-at="2024-07-11T16:42:06 IST" name="login" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
+    <test started-at="2024-07-16T15:51:51 IST" name="Test" finished-at="2024-07-16T15:51:56 IST" duration-ms="4414">
+      <class name="parameters.ParametersDemo">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:parameters.ParametersDemo@223191a6]" started-at="2024-07-16T15:51:51 IST" name="login" finished-at="2024-07-16T15:51:56 IST" duration-ms="4363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="logout()[pri:0, instance:group_test.User@72967906]" started-at="2024-07-11T16:42:06 IST" name="logout" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="profileMange()[pri:0, instance:group_test.User@72967906]" started-at="2024-07-11T16:42:06 IST" name="profileMange" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- profileMange -->
-      </class> <!-- group_test.User -->
-      <class name="group_test.Product">
-        <test-method signature="addToCart()[pri:0, instance:group_test.Product@6cf0e0ba]" started-at="2024-07-11T16:42:06 IST" name="addToCart" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method signature="addToWishlist()[pri:0, instance:group_test.Product@6cf0e0ba]" started-at="2024-07-11T16:42:06 IST" name="addToWishlist" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToWishlist -->
-        <test-method signature="compareProduct()[pri:0, instance:group_test.Product@6cf0e0ba]" started-at="2024-07-11T16:42:06 IST" name="compareProduct" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- compareProduct -->
-        <test-method signature="removeFromcart()[pri:0, instance:group_test.Product@6cf0e0ba]" started-at="2024-07-11T16:42:06 IST" name="removeFromcart" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeFromcart -->
-        <test-method signature="serachProduct()[pri:0, instance:group_test.Product@6cf0e0ba]" started-at="2024-07-11T16:42:06 IST" name="serachProduct" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- serachProduct -->
-      </class> <!-- group_test.Product -->
+      </class> <!-- parameters.ParametersDemo -->
     </test> <!-- Test -->
-    <test started-at="2024-07-11T16:42:06 IST" name="Test1" finished-at="2024-07-11T16:42:06 IST" duration-ms="27">
-      <class name="group_test.User">
-        <test-method signature="createAccount()[pri:0, instance:group_test.User@4c12331b]" started-at="2024-07-11T16:42:06 IST" name="createAccount" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAccount -->
-        <test-method signature="login()[pri:0, instance:group_test.User@4c12331b]" started-at="2024-07-11T16:42:06 IST" name="login" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="logout()[pri:0, instance:group_test.User@4c12331b]" started-at="2024-07-11T16:42:06 IST" name="logout" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="profileMange()[pri:0, instance:group_test.User@4c12331b]" started-at="2024-07-11T16:42:06 IST" name="profileMange" finished-at="2024-07-11T16:42:06 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- profileMange -->
-      </class> <!-- group_test.User -->
-      <class name="group_test.Product">
-        <test-method signature="addToCart()[pri:0, instance:group_test.Product@7586beff]" started-at="2024-07-11T16:42:06 IST" name="addToCart" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method signature="addToWishlist()[pri:0, instance:group_test.Product@7586beff]" started-at="2024-07-11T16:42:06 IST" name="addToWishlist" finished-at="2024-07-11T16:42:06 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToWishlist -->
-        <test-method signature="compareProduct()[pri:0, instance:group_test.Product@7586beff]" started-at="2024-07-11T16:42:06 IST" name="compareProduct" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- compareProduct -->
-        <test-method signature="removeFromcart()[pri:0, instance:group_test.Product@7586beff]" started-at="2024-07-11T16:42:06 IST" name="removeFromcart" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeFromcart -->
-        <test-method signature="serachProduct()[pri:0, instance:group_test.Product@7586beff]" started-at="2024-07-11T16:42:06 IST" name="serachProduct" finished-at="2024-07-11T16:42:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- serachProduct -->
-      </class> <!-- group_test.Product -->
-    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>
