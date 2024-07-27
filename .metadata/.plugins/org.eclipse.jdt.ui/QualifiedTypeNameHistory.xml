@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="core.Child"/>
-    <fullyQualifiedTypeName name="java.awt.peer.SystemTrayPeer"/>
-    <fullyQualifiedTypeName name="core.SBI"/>
     <fullyQualifiedTypeName name="core.PNB"/>
     <fullyQualifiedTypeName name="core.JAVA"/>
     <fullyQualifiedTypeName name="core.Person"/>
@@ -39,13 +36,8 @@
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="org.junit.After"/>
     <fullyQualifiedTypeName name="org.junit.AfterClass"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
-    <fullyQualifiedTypeName name="connection.DriverConnection"/>
     <fullyQualifiedTypeName name="org.junit.Before"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
-    <fullyQualifiedTypeName name="org.junit.runners.Parameterized.Parameters"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
@@ -57,7 +49,15 @@
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="core.ByRunnable"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="org.junit.Ignore"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Ignore"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="connection.DriverConnection"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="net.bytebuddy.pool.TypePool.Default.LazyTypeDescription.GenericTypeToken.ForLowerBoundWildcard"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.junit.runners.Parameterized.Parameters"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
 </qualifiedTypeNameHistroy>

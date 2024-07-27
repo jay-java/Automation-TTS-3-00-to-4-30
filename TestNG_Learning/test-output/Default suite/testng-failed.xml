@@ -5,8 +5,6 @@
     <classes>
       <class name="dependency.DemoTest">
         <methods>
-          <include name="logout"/>
-          <include name="profileMange"/>
           <include name="createAccount"/>
           <include name="login"/>
         </methods>

@@ -18,7 +18,7 @@ public class DemoTest {
 	public void profileMange() {
 		System.out.println("profile mange");
 	}
-	@Test(dependsOnMethods = "profileMange")
+	@Test(dependsOnMethods = "login")
 	public void logout() {
 		System.out.println("logout");
 	}

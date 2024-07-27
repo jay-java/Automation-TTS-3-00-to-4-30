@@ -8,10 +8,4 @@
       <class name="eshop.Product"/>
     </classes>
   </test> <!-- Test -->
-   <test thread-count="5" name="Test1">
-    <classes>
-      <class name="eshop.User"/>
-      <class name="eshop.Product"/>
-    </classes>
-  </test>
 </suite> <!-- Suite -->

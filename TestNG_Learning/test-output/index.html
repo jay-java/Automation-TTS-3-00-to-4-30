@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\jay-pc\Automation TTS 3-00 to 4-30\TestNG_Learning\parameters.xml</span>
+                    <span>C:\Users\jay-pc\Automation TTS 3-00 to 4-30\TestNG_Learning\crossbrowser.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossBrowser.BrowserTest" class="method navigator-link" hash-for-method="fbLoginTest(ff)">fbLoginTest(ff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +117,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="parameters.ParametersDemo" class="method navigator-link" hash-for-method="login(selenium@gmail.com, selenium@123)">login(selenium@gmail.com, selenium@123)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="crossBrowser.BrowserTest" class="method navigator-link" hash-for-method="fbLoginTest(chrome)">fbLoginTest(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossBrowser.BrowserTest" class="method navigator-link" hash-for-method="fbLoginTest(edge)">fbLoginTest(edge)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -118,18 +137,78 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">parameters.ParametersDemo</span>
+              <img src="failed.png"/>
+              <span class="class-name">crossBrowser.BrowserTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login(selenium@gmail.com, selenium@123)">
-                  </a> <!-- login(selenium@gmail.com, selenium@123) -->
-                  <span class="method-name">login</span>
-                  <span class="parameters">(selenium@gmail.com,selenium@123)</span>
+                  <a name="fbLoginTest(ff)">
+                  </a> <!-- fbLoginTest(ff) -->
+                  <span class="method-name">fbLoginTest</span>
+                  <span class="parameters">(ff)</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-S4VQME9&apos;, ip: &apos;192.168.1.47&apos;
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}]}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:155)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at crossBrowser.BrowserTest.fbLoginTest(BrowserTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;D:\webdriver\geckodriver-v0.34.0-win32\geckodriver.exe&quot;: CreateProcess error=216, This version of %1 is not compatible with the version of Windows you&apos;re running. Check your computer&apos;s system information and then contact the software publisher
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:194)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:207)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	... 37 more
+Caused by: java.io.IOException: Cannot run program &quot;D:\webdriver\geckodriver-v0.34.0-win32\geckodriver.exe&quot;: CreateProcess error=216, This version of %1 is not compatible with the version of Windows you&apos;re running. Check your computer&apos;s system information and then contact the software publisher
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:192)
+	... 40 more
+Caused by: java.io.IOException: CreateProcess error=216, This version of %1 is not compatible with the version of Windows you&apos;re running. Check your computer&apos;s system information and then contact the software publisher
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:499)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 42 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">crossBrowser.BrowserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fbLoginTest(chrome)">
+                  </a> <!-- fbLoginTest(chrome) -->
+                  <span class="method-name">fbLoginTest</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fbLoginTest(edge)">
+                  </a> <!-- fbLoginTest(edge) -->
+                  <span class="method-name">fbLoginTest</span>
+                  <span class="parameters">(edge)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +216,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\jay-pc\Automation TTS 3-00 to 4-30\TestNG_Learning\parameters.xml</span>
+            <span class="header-content">C:\Users\jay-pc\Automation TTS 3-00 to 4-30\TestNG_Learning\crossbrowser.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,12 +224,23 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;selenium@123&quot;/&gt;
-    &lt;parameter name=&quot;email&quot; value=&quot;selenium@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;parameters.ParametersDemo&quot;/&gt;
+      &lt;class name=&quot;crossBrowser.BrowserTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;ff&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;crossBrowser.BrowserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Tes2t&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;crossBrowser.BrowserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Tes2t --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -163,6 +253,12 @@
             <ul>
               <li>
                 <span class="test-name">Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Tes2t (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,16 +284,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'parameters.ParametersDemo')
-data.setCell(0, 3, 4363);
+data.setCell(0, 1, 'fbLoginTest')
+data.setCell(0, 2, 'crossBrowser.BrowserTest')
+data.setCell(0, 3, 5004);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fbLoginTest')
+data.setCell(1, 2, 'crossBrowser.BrowserTest')
+data.setCell(1, 3, 2059);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fbLoginTest')
+data.setCell(2, 2, 'crossBrowser.BrowserTest')
+data.setCell(2, 3, 36);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -223,10 +327,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">parameters.ParametersDemo</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">crossBrowser.BrowserTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">login(selenium@gmail.com, selenium@123)</span>
+                <span class="method-name">fbLoginTest(chrome)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fbLoginTest(ff)</span>
+                <span class="method-start">2144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fbLoginTest(edge)</span>
+                <span class="method-start">2200 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
