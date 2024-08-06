@@ -20,7 +20,6 @@ public class BrowserTest {
 			System.setProperty("webdriver.gecko.driver", "D:\\webdriver\\geckodriver-v0.34.0-win32\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			driver.get("https://www.facebook.com/");
-
 		}
 		if (browser.equals("edge")) {
 			System.setProperty("webdriver.edge.driver", "D:\\webdriver\\edgedriver_win64\\msedgedriver.exe");
